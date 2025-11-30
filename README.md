@@ -13,8 +13,7 @@
 
 `hgs_dynamic/`
 
-* Dynamic-flavored variant of HGS (not necessarily used in the main pipeline)
-
+* Dynamic variant of HGS
 `node_selector/`
 
 * `node_selector.py` + `DispatchModel.py` + checkpoint
