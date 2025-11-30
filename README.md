@@ -1,4 +1,4 @@
-1. Project structure breakdown:
+# 1. Project structure breakdown:
 
 * `solver.py` – main entry point
 * `solver_static.py` – static baseline + HGS interface
