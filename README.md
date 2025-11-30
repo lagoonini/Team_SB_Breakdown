@@ -110,7 +110,7 @@ For these small instances, the code **skips HGS entirely** and returns a trivial
 
 ---
 
-### 2.3 Writing the instance file for HGS
+### 3.3 Writing the instance file for HGS
 
 For larger instances, the function prepares an input file for the C++ solver:
 
@@ -140,7 +140,7 @@ This text file is what the HGS C++ binary reads.
 
 ---
 
-### 2.4 Selecting the HGS executable
+### 3.4 Selecting the HGS executable
 
 ```python
 executable = os.path.join('hgs', 'hgsvrptw')
@@ -155,7 +155,7 @@ assert os.path.isfile(executable), f"HGS executable {executable} does not exist!
 
 ---
 
-### 2.5 Building the HGS command
+### 3.5 Building the HGS command
 
 ```python
 hgs_cmd = [
@@ -186,7 +186,7 @@ if verbose == True:
 ```
 ---
 
-### 2.6 Running HGS and parsing its output
+### 3.6 Running HGS and parsing its output
 
 ```python
 with subprocess.Popen(hgs_cmd, stdout=subprocess.PIPE, text=True) as p:
